@@ -1,0 +1,50 @@
+{
+  "missed_regions": [],
+  "merge_groups": [
+    {
+      "member_filenames": [
+        "iter00_component_0001_logo_icon.png",
+        "iter00_component_0006_equation.png",
+        "iter00_component_0009_text.png"
+      ],
+      "merged_class": "callout",
+      "merged_bbox": [
+        271.0,
+        1174.0,
+        2211.0,
+        1368.0
+      ],
+      "reason": "Blue arrow bullet marker, its text line, and the trailing equation together form one bullet-point conclusion statement."
+    },
+    {
+      "member_filenames": [
+        "iter00_component_0002_logo_icon.png",
+        "iter00_component_0008_text.png"
+      ],
+      "merged_class": "heading",
+      "merged_bbox": [
+        133.0,
+        298.0,
+        907.0,
+        393.0
+      ],
+      "reason": "Checkbox bullet marker and the 'Buffer-based GFC' heading text form one bulleted heading."
+    },
+    {
+      "member_filenames": [
+        "iter00_component_0003_text.png",
+        "iter00_component_0011_axis.png"
+      ],
+      "merged_class": "line chart",
+      "merged_bbox": [
+        189.0,
+        545.0,
+        1463.0,
+        1056.0
+      ],
+      "reason": "The 'Queue length' text is the x-axis label of the rate-vs-queue-length line chart and belongs to that chart component."
+    }
+  ],
+  "rejected_merge_groups": [],
+  "pixel_erases": []
+}

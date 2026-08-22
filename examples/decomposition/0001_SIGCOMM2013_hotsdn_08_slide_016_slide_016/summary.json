@@ -1,0 +1,286 @@
+{
+  "original_image": "slide_016.png",
+  "wall_clock_sec": 28.87,
+  "num_iters_run": 1,
+  "final_cleaned_image": "experiments/h11-model-tiering/runs_api_validation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/iter_00/segmentation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/image_cleaned.png",
+  "final_verdict": {
+    "needs_rerun": false,
+    "reason": "The cleaned image is essentially blank white with only a faint thin vertical line artifact, which is decorative residue and not a substantive component.",
+    "remaining_components": [
+      "faint thin vertical line artifact"
+    ],
+    "invalid_components": [],
+    "component_verdicts": [
+      {
+        "filename": "component_0001_page_number.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "16",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Simple numeric page number rendered as plain text with minimal whitespace.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0002_text.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "Sending",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Clear, readable single word 'Sending' rendered as text with no surrounding graphics.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0003_text.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "Receiving",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Single word 'Receiving' rendered in sans-serif font, clearly legible with tight bounding box and no clipping.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0004_title_text.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "FPGA adapter design",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Clear, readable title text with no graphical elements; content fills the crop appropriately.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0005_architecture_diagram.png",
+        "valid": true,
+        "is_text_only": false,
+        "ocr_latex": "",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "This is a complex system architecture diagram showing data flow between userland, device driver, FPGA, and PHY layers with ring buffers, DMA, and PCIe components.",
+        "cascade": "screen-accepted"
+      }
+    ],
+    "ocr_results": [
+      {
+        "filename": "component_0001_page_number.png",
+        "latex": "16"
+      },
+      {
+        "filename": "component_0002_text.png",
+        "latex": "Sending"
+      },
+      {
+        "filename": "component_0003_text.png",
+        "latex": "Receiving"
+      },
+      {
+        "filename": "component_0004_title_text.png",
+        "latex": "FPGA adapter design"
+      }
+    ],
+    "review_source": "bbox",
+    "bbox_overlay_path": "experiments/h11-model-tiering/runs_api_validation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/iter_00/bbox_overlay.png",
+    "pruned": {
+      "removed_files": [],
+      "removed_bbox_files": [],
+      "removed_metadata_entries": []
+    },
+    "bbox_tightening": {
+      "tightened": []
+    },
+    "bbox_expansion": {
+      "expanded": []
+    }
+  },
+  "iters": [
+    {
+      "iter_dir": "experiments/h11-model-tiering/runs_api_validation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/iter_00",
+      "input_image": "slide_016.png",
+      "cleaned_image": "experiments/h11-model-tiering/runs_api_validation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/iter_00/segmentation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/image_cleaned.png",
+      "per_image": {
+        "input_image": "slide_016.png",
+        "phrases": [
+          "Title: FPGA adapter design",
+          "Receiving path diagram",
+          "Sending path diagram",
+          "Userland layer label",
+          "Device driver layer label",
+          "PCIe interface label",
+          "FPGA layer label",
+          "Left side read() flow",
+          "Left side ring buffer",
+          "Left side DMA connection",
+          "Left side bus master",
+          "Left side GMII",
+          "Left side PHY",
+          "Right side write() flow",
+          "Right side ring buffer",
+          "Right side write combining",
+          "Right side ring buffer BRAM",
+          "Right side GMII",
+          "Right side PHY",
+          "Horizontal dashed layer dividers",
+          "Slide number 16"
+        ],
+        "b_classes": [
+          "title text",
+          "diagram",
+          "label",
+          "flowchart",
+          "diagram element",
+          "connector",
+          "page number"
+        ],
+        "c_classes": [
+          "architecture diagram",
+          "arrow",
+          "component label",
+          "diagram",
+          "diagram component",
+          "diagram label",
+          "diagram node",
+          "flowchart",
+          "header/title",
+          "label",
+          "label text",
+          "page number",
+          "shape",
+          "technical diagram",
+          "text",
+          "title text"
+        ],
+        "union_classes": [
+          "architecture diagram",
+          "arrow",
+          "component label",
+          "connector",
+          "diagram",
+          "diagram component",
+          "diagram element",
+          "diagram label",
+          "diagram node",
+          "flowchart",
+          "header/title",
+          "label",
+          "label text",
+          "page number",
+          "shape",
+          "technical diagram",
+          "text",
+          "title text"
+        ],
+        "retry_classes_added": [],
+        "score_thresh_used": 0.3
+      },
+      "review": {
+        "needs_rerun": false,
+        "reason": "The cleaned image is essentially blank white with only a faint thin vertical line artifact, which is decorative residue and not a substantive component.",
+        "remaining_components": [
+          "faint thin vertical line artifact"
+        ],
+        "invalid_components": [],
+        "component_verdicts": [
+          {
+            "filename": "component_0001_page_number.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "16",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Simple numeric page number rendered as plain text with minimal whitespace.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0002_text.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "Sending",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Clear, readable single word 'Sending' rendered as text with no surrounding graphics.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0003_text.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "Receiving",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Single word 'Receiving' rendered in sans-serif font, clearly legible with tight bounding box and no clipping.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0004_title_text.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "FPGA adapter design",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Clear, readable title text with no graphical elements; content fills the crop appropriately.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0005_architecture_diagram.png",
+            "valid": true,
+            "is_text_only": false,
+            "ocr_latex": "",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "This is a complex system architecture diagram showing data flow between userland, device driver, FPGA, and PHY layers with ring buffers, DMA, and PCIe components.",
+            "cascade": "screen-accepted"
+          }
+        ],
+        "ocr_results": [
+          {
+            "filename": "component_0001_page_number.png",
+            "latex": "16"
+          },
+          {
+            "filename": "component_0002_text.png",
+            "latex": "Sending"
+          },
+          {
+            "filename": "component_0003_text.png",
+            "latex": "Receiving"
+          },
+          {
+            "filename": "component_0004_title_text.png",
+            "latex": "FPGA adapter design"
+          }
+        ],
+        "review_source": "bbox",
+        "bbox_overlay_path": "experiments/h11-model-tiering/runs_api_validation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/iter_00/bbox_overlay.png",
+        "pruned": {
+          "removed_files": [],
+          "removed_bbox_files": [],
+          "removed_metadata_entries": []
+        },
+        "bbox_tightening": {
+          "tightened": []
+        },
+        "bbox_expansion": {
+          "expanded": []
+        }
+      }
+    }
+  ],
+  "cross_iter_dedup": {
+    "overlap_ratio_thresh": 0.5,
+    "removed": []
+  },
+  "layout_review": {
+    "missed_regions": [],
+    "merge_groups": [],
+    "rejected_merge_groups": [],
+    "pixel_erases": []
+  },
+  "final_manifest_summary": {
+    "num_components": 5,
+    "num_fine": 5,
+    "num_merged": 0,
+    "num_layout_review_missed": 0
+  }
+}

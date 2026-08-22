@@ -1,0 +1,66 @@
+[
+ {
+  "page": "0000",
+  "orig_words": 23,
+  "render_words": 24,
+  "missing_words": [],
+  "coverage": 1.0,
+  "median_height_ratio": 0.576
+ },
+ {
+  "page": "0001",
+  "orig_words": 16,
+  "render_words": 14,
+  "missing_words": [
+   "100",
+   "completiol",
+   "performancel",
+   "rec"
+  ],
+  "coverage": 0.75,
+  "median_height_ratio": 0.659
+ },
+ {
+  "page": "0002",
+  "orig_words": 28,
+  "render_words": 26,
+  "missing_words": [
+   "10",
+   "contraller",
+   "flow",
+   "hardware"
+  ],
+  "coverage": 0.8571428571428572,
+  "median_height_ratio": 0.624
+ },
+ {
+  "page": "0003",
+  "orig_words": 25,
+  "render_words": 25,
+  "missing_words": [
+   "14"
+  ],
+  "coverage": 0.96,
+  "median_height_ratio": 0.89
+ },
+ {
+  "page": "0004",
+  "orig_words": 52,
+  "render_words": 51,
+  "missing_words": [
+   "19"
+  ],
+  "coverage": 0.9807692307692307,
+  "median_height_ratio": 0.5
+ },
+ {
+  "page": "0005",
+  "orig_words": 13,
+  "render_words": 12,
+  "missing_words": [
+   "23"
+  ],
+  "coverage": 0.9230769230769231,
+  "median_height_ratio": 0.835
+ }
+]

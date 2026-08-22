@@ -1,0 +1,636 @@
+{
+  "image": "slide_027.png",
+  "num_components": 14,
+  "num_fine": 11,
+  "num_merged": 3,
+  "num_layout_review_missed": 0,
+  "num_bbox_tightened": 8,
+  "num_final_components": 7,
+  "components": [
+    {
+      "filename": "iter00_component_0001_logo_icon.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0001_logo_icon.png",
+      "text_type": "logo/icon",
+      "score": 0.7652276754379272,
+      "bbox_xyxy": [
+        271.0,
+        1175.0,
+        329.0,
+        1239.0
+      ],
+      "bbox_area": 3712.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "Blue right-pointing arrow/play logo icon; valid graphical component with no text.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        270.773681640625,
+        1173.197998046875,
+        331.64056396484375,
+        1239.607177734375
+      ],
+      "tight_bbox_xyxy": [
+        271.0,
+        1175.0,
+        329.0,
+        1239.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0001_callout.png"
+    },
+    {
+      "filename": "iter00_component_0002_logo_icon.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0002_logo_icon.png",
+      "text_type": "logo/icon",
+      "score": 0.6635468602180481,
+      "bbox_xyxy": [
+        132.55609130859375,
+        295.7077331542969,
+        211.0690155029297,
+        372.3675231933594
+      ],
+      "bbox_area": 6018.784284090623,
+      "segmentation_mode": "mask",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "Valid geometric icon: black rectangle outline with hollow interior, clearly a deliberate logo/graphical element.",
+      "bbox_was_tightened": false,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": null,
+      "tight_bbox_xyxy": [
+        133.0,
+        297.0,
+        210.0,
+        372.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0002_heading.png"
+    },
+    {
+      "filename": "iter00_component_0003_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0003_text.png",
+      "text_type": "text",
+      "score": 0.5076338052749634,
+      "bbox_xyxy": [
+        1291.6741943359375,
+        915.7526245117188,
+        1469.5042724609375,
+        1057.288818359375
+      ],
+      "bbox_area": 25169.392409443855,
+      "segmentation_mode": "mask",
+      "is_text_only": true,
+      "ocr_latex": "Queue \\\\ length",
+      "valid_reason": "Clear, readable two-line text label; bbox is appropriately tight with no substantial whitespace.",
+      "bbox_was_tightened": false,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": null,
+      "tight_bbox_xyxy": [
+        1295.0,
+        916.0,
+        1465.0,
+        1057.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0003_line_chart.png"
+    },
+    {
+      "filename": "iter00_component_0004_logo_icon.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0004_logo_icon.png",
+      "text_type": "logo/icon",
+      "score": 0.9030351638793945,
+      "bbox_xyxy": [
+        2235.703857421875,
+        35.61625671386719,
+        2445.2880859375,
+        249.4903106689453
+      ],
+      "bbox_area": 44824.628597684205,
+      "segmentation_mode": "mask",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "This is a university seal logo with circular border, central star, surrounding text, and horizontal line\u2014a clear graphical element, not text-only.",
+      "bbox_was_tightened": false,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": null,
+      "tight_bbox_xyxy": [
+        2237.0,
+        36.0,
+        2445.0,
+        243.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0005_decorative_element.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0005_decorative_element.png",
+      "text_type": "decorative element",
+      "score": 0.4186284840106964,
+      "bbox_xyxy": [
+        97.0,
+        240.0,
+        2420.0,
+        262.0
+      ],
+      "bbox_area": 51106.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "Thin horizontal purple/dark blue line, a clear decorative divider element.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        96.56404113769531,
+        240.47201538085938,
+        2429.228515625,
+        263.29437255859375
+      ],
+      "tight_bbox_xyxy": [
+        97.0,
+        240.0,
+        2420.0,
+        262.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0006_equation.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0006_equation.png",
+      "text_type": "equation",
+      "score": 0.7106837630271912,
+      "bbox_xyxy": [
+        932.0,
+        1281.0,
+        1561.0,
+        1368.0
+      ],
+      "bbox_area": 54723.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "B_0 \\leq B_m - 4Ct",
+      "valid_reason": "Clear mathematical equation with subscripts and operators, fully contained, text fills crop well.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        930.6586303710938,
+        1277.8197021484375,
+        1564.823974609375,
+        1367.85302734375
+      ],
+      "tight_bbox_xyxy": [
+        932.0,
+        1281.0,
+        1561.0,
+        1368.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0001_callout.png"
+    },
+    {
+      "filename": "iter00_component_0007_section_title.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0007_section_title.png",
+      "text_type": "section title",
+      "score": 0.8832247257232666,
+      "bbox_xyxy": [
+        155.0,
+        93.0,
+        877.0,
+        185.0
+      ],
+      "bbox_area": 66424.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Practical GFC",
+      "valid_reason": "Clear text-only section title; text is fully readable and fills most of the crop with minimal whitespace.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        152.51953125,
+        92.84516906738281,
+        876.77197265625,
+        185.15087890625
+      ],
+      "tight_bbox_xyxy": [
+        155.0,
+        93.0,
+        877.0,
+        185.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0008_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0008_text.png",
+      "text_type": "text",
+      "score": 0.6820316910743713,
+      "bbox_xyxy": [
+        222.0,
+        314.0,
+        907.0,
+        393.0
+      ],
+      "bbox_area": 54115.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Buffer-based GFC",
+      "valid_reason": "Clear, readable text element; no graphical components; fully contained within bbox with reasonable vertical margins.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        125.74195861816406,
+        306.7460632324219,
+        906.5894775390625,
+        394.5331115722656
+      ],
+      "tight_bbox_xyxy": [
+        222.0,
+        314.0,
+        907.0,
+        393.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0002_heading.png"
+    },
+    {
+      "filename": "iter00_component_0009_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0009_text.png",
+      "text_type": "text",
+      "score": 0.6368201971054077,
+      "bbox_xyxy": [
+        363.0,
+        1174.0,
+        2211.0,
+        1249.0
+      ],
+      "bbox_area": 138600.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "in buffer-based GFC, hold and wait can be avoided if",
+      "valid_reason": "Readable blue text with no graphical elements; bbox tightly encloses the content horizontally and vertically.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        351.2328796386719,
+        1172.854248046875,
+        2218.005615234375,
+        1248.7933349609375
+      ],
+      "tight_bbox_xyxy": [
+        363.0,
+        1174.0,
+        2211.0,
+        1249.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0001_callout.png"
+    },
+    {
+      "filename": "iter00_component_0010_equation.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0010_equation.png",
+      "text_type": "equation",
+      "score": 0.7671050429344177,
+      "bbox_xyxy": [
+        1572.0,
+        546.0,
+        2276.0,
+        930.0
+      ],
+      "bbox_area": 270336.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "R_k = \\frac{1}{2} R_{k-1} \\\\ B_{k+1} \\geq B_k + R_{k-1} \\tau",
+      "valid_reason": "Two well-formed mathematical equations with standard notation; all text fully visible and legible; minimal unnecessary whitespace.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": "pixel",
+      "original_bbox_xyxy": [
+        1562.5400390625,
+        532.4784545898438,
+        2279.13818359375,
+        952.103515625
+      ],
+      "tight_bbox_xyxy": [
+        1570.0,
+        546.0,
+        2277.0,
+        937.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0011_axis.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0011_axis.png",
+      "text_type": "axis",
+      "score": 0.7765268683433533,
+      "bbox_xyxy": [
+        189.0,
+        545.0,
+        1280.0,
+        1045.0
+      ],
+      "bbox_area": 545500.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "Complete axis diagram with arrows, gridlines, boxes, and labeled stages \u2014 non-text graphical content is integral to the component.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        188.7468719482422,
+        476.447265625,
+        1354.0452880859375,
+        1061.091552734375
+      ],
+      "tight_bbox_xyxy": [
+        189.0,
+        545.0,
+        1280.0,
+        1045.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": "merged_0003_line_chart.png"
+    },
+    {
+      "filename": "merged_0001_callout.png",
+      "granularity": "merged",
+      "source": "merged",
+      "iter_idx": null,
+      "iter_original_filename": null,
+      "text_type": "callout",
+      "score": null,
+      "bbox_xyxy": [
+        271.0,
+        1174.0,
+        2211.0,
+        1368.0
+      ],
+      "bbox_area": 376360.0,
+      "segmentation_mode": "bbox",
+      "polygon_xyxy": null,
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "",
+      "merged_from": [
+        "iter00_component_0001_logo_icon.png",
+        "iter00_component_0006_equation.png",
+        "iter00_component_0009_text.png"
+      ],
+      "reason": "Blue arrow bullet marker, its text line, and the trailing equation together form one bullet-point conclusion statement.",
+      "merged_into": null,
+      "pixel_erased_candidates": null,
+      "pixel_erased_total_px": null
+    },
+    {
+      "filename": "merged_0002_heading.png",
+      "granularity": "merged",
+      "source": "merged",
+      "iter_idx": null,
+      "iter_original_filename": null,
+      "text_type": "heading",
+      "score": null,
+      "bbox_xyxy": [
+        133.0,
+        298.0,
+        907.0,
+        393.0
+      ],
+      "bbox_area": 73530.0,
+      "segmentation_mode": "bbox",
+      "polygon_xyxy": null,
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "",
+      "merged_from": [
+        "iter00_component_0002_logo_icon.png",
+        "iter00_component_0008_text.png"
+      ],
+      "reason": "Checkbox bullet marker and the 'Buffer-based GFC' heading text form one bulleted heading.",
+      "merged_into": null,
+      "pixel_erased_candidates": null,
+      "pixel_erased_total_px": null
+    },
+    {
+      "filename": "merged_0003_line_chart.png",
+      "granularity": "merged",
+      "source": "merged",
+      "iter_idx": null,
+      "iter_original_filename": null,
+      "text_type": "line chart",
+      "score": null,
+      "bbox_xyxy": [
+        189.0,
+        545.0,
+        1463.0,
+        1056.0
+      ],
+      "bbox_area": 651014.0,
+      "segmentation_mode": "bbox",
+      "polygon_xyxy": null,
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "",
+      "merged_from": [
+        "iter00_component_0003_text.png",
+        "iter00_component_0011_axis.png"
+      ],
+      "reason": "The 'Queue length' text is the x-axis label of the rate-vs-queue-length line chart and belongs to that chart component.",
+      "merged_into": null,
+      "pixel_erased_candidates": null,
+      "pixel_erased_total_px": null
+    }
+  ],
+  "final_components": [
+    {
+      "filename": "iter00_component_0004_logo_icon.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "logo/icon",
+      "bbox_xyxy": [
+        2235.703857421875,
+        35.61625671386719,
+        2445.2880859375,
+        249.4903106689453
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "mask",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 5
+    },
+    {
+      "filename": "iter00_component_0005_decorative_element.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "decorative element",
+      "bbox_xyxy": [
+        97.0,
+        240.0,
+        2420.0,
+        262.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 6
+    },
+    {
+      "filename": "iter00_component_0007_section_title.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "section title",
+      "bbox_xyxy": [
+        155.0,
+        93.0,
+        877.0,
+        185.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Practical GFC",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 4
+    },
+    {
+      "filename": "iter00_component_0010_equation.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "equation",
+      "bbox_xyxy": [
+        1572.0,
+        546.0,
+        2276.0,
+        930.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "R_k = \\frac{1}{2} R_{k-1} \\\\ B_{k+1} \\geq B_k + R_{k-1} \\tau",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 2
+    },
+    {
+      "filename": "merged_0001_callout.png",
+      "granularity": "merged",
+      "source": "merged",
+      "text_type": "callout",
+      "bbox_xyxy": [
+        271.0,
+        1174.0,
+        2211.0,
+        1368.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "merged_from": [
+        "iter00_component_0001_logo_icon.png",
+        "iter00_component_0006_equation.png",
+        "iter00_component_0009_text.png"
+      ],
+      "post_merge_ocr": false,
+      "z_index": 1
+    },
+    {
+      "filename": "merged_0002_heading.png",
+      "granularity": "merged",
+      "source": "merged",
+      "text_type": "heading",
+      "bbox_xyxy": [
+        133.0,
+        298.0,
+        907.0,
+        393.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "merged_from": [
+        "iter00_component_0002_logo_icon.png",
+        "iter00_component_0008_text.png"
+      ],
+      "post_merge_ocr": false,
+      "z_index": 3
+    },
+    {
+      "filename": "merged_0003_line_chart.png",
+      "granularity": "merged",
+      "source": "merged",
+      "text_type": "line chart",
+      "bbox_xyxy": [
+        189.0,
+        545.0,
+        1463.0,
+        1056.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "merged_from": [
+        "iter00_component_0003_text.png",
+        "iter00_component_0011_axis.png"
+      ],
+      "post_merge_ocr": false,
+      "z_index": 0
+    }
+  ]
+}

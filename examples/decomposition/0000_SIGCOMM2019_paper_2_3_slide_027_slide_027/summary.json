@@ -1,0 +1,490 @@
+{
+  "original_image": "slide_027.png",
+  "wall_clock_sec": 401.97,
+  "num_iters_run": 1,
+  "final_cleaned_image": "experiments/stack-v2/runs/main20/0011_SIGCOMM2019_paper_2_3_slide_027_slide_027/iter_00/segmentation/0000_SIGCOMM2019_paper_2_3_slide_027_slide_027/image_cleaned.png",
+  "final_verdict": {
+    "needs_rerun": false,
+    "reason": "Only a small 'Rate' axis label residue remains outside boxes; all substantive components (title, chart, equations, logo, banner) were extracted.",
+    "remaining_components": [
+      "'Rate' axis label"
+    ],
+    "invalid_components": [],
+    "component_verdicts": [
+      {
+        "filename": "component_0001_logo_icon.png",
+        "valid": true,
+        "is_text_only": false,
+        "ocr_latex": "",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Blue right-pointing arrow/play logo icon; valid graphical component with no text.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0002_logo_icon.png",
+        "valid": true,
+        "is_text_only": false,
+        "ocr_latex": "",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Valid geometric icon: black rectangle outline with hollow interior, clearly a deliberate logo/graphical element.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0003_text.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "Queue \\\\ length",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Clear, readable two-line text label; bbox is appropriately tight with no substantial whitespace.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0004_logo_icon.png",
+        "valid": true,
+        "is_text_only": false,
+        "ocr_latex": "",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "This is a university seal logo with circular border, central star, surrounding text, and horizontal line\u2014a clear graphical element, not text-only.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0005_decorative_element.png",
+        "valid": true,
+        "is_text_only": false,
+        "ocr_latex": "",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Thin horizontal purple/dark blue line, a clear decorative divider element.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0006_equation.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "B_0 \\leq B_m - 4Ct",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Clear mathematical equation with subscripts and operators, fully contained, text fills crop well.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0007_section_title.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "Practical GFC",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Clear text-only section title; text is fully readable and fills most of the crop with minimal whitespace.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0008_text.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "Buffer-based GFC",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Clear, readable text element; no graphical components; fully contained within bbox with reasonable vertical margins.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0009_text.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "in buffer-based GFC, hold and wait can be avoided if",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Readable blue text with no graphical elements; bbox tightly encloses the content horizontally and vertically.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0010_equation.png",
+        "valid": true,
+        "is_text_only": true,
+        "ocr_latex": "R_k = \\frac{1}{2} R_{k-1} \\\\ B_{k+1} \\geq B_k + R_{k-1} \\tau",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Two well-formed mathematical equations with standard notation; all text fully visible and legible; minimal unnecessary whitespace.",
+        "cascade": "screen-accepted"
+      },
+      {
+        "filename": "component_0011_axis.png",
+        "valid": true,
+        "is_text_only": false,
+        "ocr_latex": "",
+        "bbox_is_tight": true,
+        "bbox_is_too_small": false,
+        "reason": "Complete axis diagram with arrows, gridlines, boxes, and labeled stages \u2014 non-text graphical content is integral to the component.",
+        "cascade": "screen-accepted"
+      }
+    ],
+    "ocr_results": [
+      {
+        "filename": "component_0003_text.png",
+        "latex": "Queue \\\\ length"
+      },
+      {
+        "filename": "component_0006_equation.png",
+        "latex": "B_0 \\leq B_m - 4Ct"
+      },
+      {
+        "filename": "component_0007_section_title.png",
+        "latex": "Practical GFC"
+      },
+      {
+        "filename": "component_0008_text.png",
+        "latex": "Buffer-based GFC"
+      },
+      {
+        "filename": "component_0009_text.png",
+        "latex": "in buffer-based GFC, hold and wait can be avoided if"
+      },
+      {
+        "filename": "component_0010_equation.png",
+        "latex": "R_k = \\frac{1}{2} R_{k-1} \\\\ B_{k+1} \\geq B_k + R_{k-1} \\tau"
+      }
+    ],
+    "review_source": "bbox",
+    "bbox_overlay_path": "experiments/stack-v2/runs/main20/0011_SIGCOMM2019_paper_2_3_slide_027_slide_027/iter_00/bbox_overlay_post_adjust.png",
+    "pruned": {
+      "removed_files": [],
+      "removed_bbox_files": [],
+      "removed_metadata_entries": []
+    },
+    "bbox_tightening": {
+      "tightened": [
+        {
+          "filename": "component_0010_equation.png",
+          "tightening_source": "pixel",
+          "previous_bbox_xyxy": [
+            1570.0,
+            546.0,
+            2277.0,
+            937.0
+          ],
+          "tight_bbox_xyxy": [
+            1572.0,
+            546.0,
+            2276.0,
+            930.0
+          ]
+        }
+      ]
+    },
+    "bbox_expansion": {
+      "expanded": []
+    },
+    "pre_adjustment_review": {
+      "needs_rerun": true,
+      "reason": "The 'Rate' axis label is still clearly visible outside all red rectangles as an intentional text component.",
+      "invalid_components": []
+    }
+  },
+  "iters": [
+    {
+      "iter_dir": "experiments/stack-v2/runs/main20/0011_SIGCOMM2019_paper_2_3_slide_027_slide_027/iter_00",
+      "input_image": "slide_027.png",
+      "cleaned_image": "experiments/stack-v2/runs/main20/0011_SIGCOMM2019_paper_2_3_slide_027_slide_027/iter_00/segmentation/0000_SIGCOMM2019_paper_2_3_slide_027_slide_027/image_cleaned.png",
+      "per_image": {
+        "input_image": "slide_027.png",
+        "phrases": [
+          "Slide title",
+          "Title underline",
+          "University logo",
+          "Section heading",
+          "Rate vs queue chart",
+          "Rate halving equation",
+          "Buffer inequality equation",
+          "Conclusion statement"
+        ],
+        "b_classes": [
+          "slide title",
+          "decorative element",
+          "logo/icon",
+          "section title",
+          "line chart",
+          "equation",
+          "text block"
+        ],
+        "c_classes": [
+          "slide title",
+          "logo/icon",
+          "heading",
+          "line chart",
+          "axis label",
+          "axis",
+          "equation",
+          "mathematical notation",
+          "text",
+          "bullet point",
+          "bullet marker",
+          "arrow"
+        ],
+        "union_classes": [
+          "arrow",
+          "axis",
+          "axis label",
+          "bullet marker",
+          "bullet point",
+          "decorative element",
+          "equation",
+          "heading",
+          "line chart",
+          "logo/icon",
+          "mathematical notation",
+          "section title",
+          "slide title",
+          "text",
+          "text block"
+        ],
+        "retry_classes_added": [],
+        "score_thresh_used": 0.3
+      },
+      "review": {
+        "needs_rerun": false,
+        "reason": "Only a small 'Rate' axis label residue remains outside boxes; all substantive components (title, chart, equations, logo, banner) were extracted.",
+        "remaining_components": [
+          "'Rate' axis label"
+        ],
+        "invalid_components": [],
+        "component_verdicts": [
+          {
+            "filename": "component_0001_logo_icon.png",
+            "valid": true,
+            "is_text_only": false,
+            "ocr_latex": "",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Blue right-pointing arrow/play logo icon; valid graphical component with no text.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0002_logo_icon.png",
+            "valid": true,
+            "is_text_only": false,
+            "ocr_latex": "",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Valid geometric icon: black rectangle outline with hollow interior, clearly a deliberate logo/graphical element.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0003_text.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "Queue \\\\ length",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Clear, readable two-line text label; bbox is appropriately tight with no substantial whitespace.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0004_logo_icon.png",
+            "valid": true,
+            "is_text_only": false,
+            "ocr_latex": "",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "This is a university seal logo with circular border, central star, surrounding text, and horizontal line\u2014a clear graphical element, not text-only.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0005_decorative_element.png",
+            "valid": true,
+            "is_text_only": false,
+            "ocr_latex": "",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Thin horizontal purple/dark blue line, a clear decorative divider element.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0006_equation.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "B_0 \\leq B_m - 4Ct",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Clear mathematical equation with subscripts and operators, fully contained, text fills crop well.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0007_section_title.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "Practical GFC",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Clear text-only section title; text is fully readable and fills most of the crop with minimal whitespace.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0008_text.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "Buffer-based GFC",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Clear, readable text element; no graphical components; fully contained within bbox with reasonable vertical margins.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0009_text.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "in buffer-based GFC, hold and wait can be avoided if",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Readable blue text with no graphical elements; bbox tightly encloses the content horizontally and vertically.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0010_equation.png",
+            "valid": true,
+            "is_text_only": true,
+            "ocr_latex": "R_k = \\frac{1}{2} R_{k-1} \\\\ B_{k+1} \\geq B_k + R_{k-1} \\tau",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Two well-formed mathematical equations with standard notation; all text fully visible and legible; minimal unnecessary whitespace.",
+            "cascade": "screen-accepted"
+          },
+          {
+            "filename": "component_0011_axis.png",
+            "valid": true,
+            "is_text_only": false,
+            "ocr_latex": "",
+            "bbox_is_tight": true,
+            "bbox_is_too_small": false,
+            "reason": "Complete axis diagram with arrows, gridlines, boxes, and labeled stages \u2014 non-text graphical content is integral to the component.",
+            "cascade": "screen-accepted"
+          }
+        ],
+        "ocr_results": [
+          {
+            "filename": "component_0003_text.png",
+            "latex": "Queue \\\\ length"
+          },
+          {
+            "filename": "component_0006_equation.png",
+            "latex": "B_0 \\leq B_m - 4Ct"
+          },
+          {
+            "filename": "component_0007_section_title.png",
+            "latex": "Practical GFC"
+          },
+          {
+            "filename": "component_0008_text.png",
+            "latex": "Buffer-based GFC"
+          },
+          {
+            "filename": "component_0009_text.png",
+            "latex": "in buffer-based GFC, hold and wait can be avoided if"
+          },
+          {
+            "filename": "component_0010_equation.png",
+            "latex": "R_k = \\frac{1}{2} R_{k-1} \\\\ B_{k+1} \\geq B_k + R_{k-1} \\tau"
+          }
+        ],
+        "review_source": "bbox",
+        "bbox_overlay_path": "experiments/stack-v2/runs/main20/0011_SIGCOMM2019_paper_2_3_slide_027_slide_027/iter_00/bbox_overlay_post_adjust.png",
+        "pruned": {
+          "removed_files": [],
+          "removed_bbox_files": [],
+          "removed_metadata_entries": []
+        },
+        "bbox_tightening": {
+          "tightened": [
+            {
+              "filename": "component_0010_equation.png",
+              "tightening_source": "pixel",
+              "previous_bbox_xyxy": [
+                1570.0,
+                546.0,
+                2277.0,
+                937.0
+              ],
+              "tight_bbox_xyxy": [
+                1572.0,
+                546.0,
+                2276.0,
+                930.0
+              ]
+            }
+          ]
+        },
+        "bbox_expansion": {
+          "expanded": []
+        },
+        "pre_adjustment_review": {
+          "needs_rerun": true,
+          "reason": "The 'Rate' axis label is still clearly visible outside all red rectangles as an intentional text component.",
+          "invalid_components": []
+        }
+      }
+    }
+  ],
+  "cross_iter_dedup": {
+    "overlap_ratio_thresh": 0.5,
+    "removed": []
+  },
+  "layout_review": {
+    "missed_regions": [],
+    "merge_groups": [
+      {
+        "member_filenames": [
+          "iter00_component_0001_logo_icon.png",
+          "iter00_component_0006_equation.png",
+          "iter00_component_0009_text.png"
+        ],
+        "merged_class": "callout",
+        "merged_bbox": [
+          271.0,
+          1174.0,
+          2211.0,
+          1368.0
+        ],
+        "reason": "Blue arrow bullet marker, its text line, and the trailing equation together form one bullet-point conclusion statement."
+      },
+      {
+        "member_filenames": [
+          "iter00_component_0002_logo_icon.png",
+          "iter00_component_0008_text.png"
+        ],
+        "merged_class": "heading",
+        "merged_bbox": [
+          133.0,
+          298.0,
+          907.0,
+          393.0
+        ],
+        "reason": "Checkbox bullet marker and the 'Buffer-based GFC' heading text form one bulleted heading."
+      },
+      {
+        "member_filenames": [
+          "iter00_component_0003_text.png",
+          "iter00_component_0011_axis.png"
+        ],
+        "merged_class": "line chart",
+        "merged_bbox": [
+          189.0,
+          545.0,
+          1463.0,
+          1056.0
+        ],
+        "reason": "The 'Queue length' text is the x-axis label of the rate-vs-queue-length line chart and belongs to that chart component."
+      }
+    ],
+    "rejected_merge_groups": [],
+    "pixel_erases": []
+  },
+  "final_manifest_summary": {
+    "num_components": 14,
+    "num_fine": 11,
+    "num_merged": 3,
+    "num_layout_review_missed": 0
+  }
+}

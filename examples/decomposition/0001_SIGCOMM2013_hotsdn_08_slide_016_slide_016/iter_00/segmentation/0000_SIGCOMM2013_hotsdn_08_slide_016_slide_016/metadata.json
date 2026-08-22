@@ -1,0 +1,224 @@
+{
+  "query_image_path": "slide_016.png",
+  "query_image_size": {
+    "width": 1920,
+    "height": 1440
+  },
+  "classes_used": [
+    "architecture diagram",
+    "arrow",
+    "component label",
+    "connector",
+    "diagram",
+    "diagram component",
+    "diagram element",
+    "diagram label",
+    "diagram node",
+    "flowchart",
+    "header/title",
+    "label",
+    "label text",
+    "page number",
+    "shape",
+    "technical diagram",
+    "text",
+    "title text"
+  ],
+  "selection_strategy": {
+    "same_label_overlap": "keep_larger_box",
+    "cross_label_overlap": "segment_smaller_box_first",
+    "cross_label_near_duplicate_handling": "suppress_one_candidate",
+    "cross_label_near_duplicate_policy": "score_then_area",
+    "cross_label_near_duplicate_overlap_ratio_thresh": 0.9,
+    "segment_on_residual_image": true,
+    "min_overlap_area": 1.0,
+    "min_residual_pixels": 32,
+    "min_residual_ratio": 0.1,
+    "lazy_segment": true,
+    "lazy_segment_component_save": "bbox_crop_when_non_overlapping_else_mask_rgba",
+    "removal_mode": "bbox_fill_for_seg_mode_bbox_else_mask_repair",
+    "mask_repair_fill_holes": true,
+    "mask_repair_closing_kernel": 5,
+    "mask_repair_dilation_px": 2,
+    "tight_bbox_dilation_px": 3,
+    "part_of_check_enabled": false,
+    "part_of_overlap_ratio_thresh": 0.3,
+    "bbox_components_saved": true,
+    "bbox_components_dir": "experiments/h11-model-tiering/runs_api_validation/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/iter_00/bbox_components/0000_SIGCOMM2013_hotsdn_08_slide_016_slide_016/components"
+  },
+  "components": [
+    {
+      "component_file": "components/component_0001_page_number.png",
+      "text_type": "page number",
+      "score": 0.8670804500579834,
+      "bbox_xyxy": [
+        1823.0,
+        1353.0,
+        1875.0,
+        1395.0
+      ],
+      "bbox_area": 2184.0,
+      "segmentation_order": 1,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 1920,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        1823.0,
+        1353.0,
+        1875.0,
+        1395.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        1820.826171875,
+        1352.7431640625,
+        1875.2144775390625,
+        1395.267333984375
+      ],
+      "bbox_component_file": "components/component_0001_page_number.png"
+    },
+    {
+      "component_file": "components/component_0002_text.png",
+      "text_type": "text",
+      "score": 0.6923138499259949,
+      "bbox_xyxy": [
+        1144.0,
+        1326.0,
+        1372.0,
+        1391.0
+      ],
+      "bbox_area": 14820.0,
+      "segmentation_order": 2,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 1920,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        1144.0,
+        1326.0,
+        1372.0,
+        1391.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        1144.0323486328125,
+        1325.7459716796875,
+        1371.9698486328125,
+        1391.0882568359375
+      ],
+      "bbox_component_file": "components/component_0002_text.png"
+    },
+    {
+      "component_file": "components/component_0003_text.png",
+      "text_type": "text",
+      "score": 0.7641083002090454,
+      "bbox_xyxy": [
+        484.0,
+        1326.0,
+        753.0,
+        1394.0
+      ],
+      "bbox_area": 18292.0,
+      "segmentation_order": 3,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 1920,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        484.0,
+        1326.0,
+        753.0,
+        1394.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        484.07147216796875,
+        1324.8021240234375,
+        753.090576171875,
+        1393.7452392578125
+      ],
+      "bbox_component_file": "components/component_0003_text.png"
+    },
+    {
+      "component_file": "components/component_0004_title_text.png",
+      "text_type": "title text",
+      "score": 0.9385160207748413,
+      "bbox_xyxy": [
+        512.0,
+        86.0,
+        1402.0,
+        184.0
+      ],
+      "bbox_area": 87220.0,
+      "segmentation_order": 4,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 1920,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        512.0,
+        86.0,
+        1402.0,
+        184.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        512.1159057617188,
+        86.2314453125,
+        1402.0823974609375,
+        183.54013061523438
+      ],
+      "bbox_component_file": "components/component_0004_title_text.png"
+    },
+    {
+      "component_file": "components/component_0005_architecture_diagram.png",
+      "text_type": "architecture diagram",
+      "score": 0.8282989859580994,
+      "bbox_xyxy": [
+        265.0,
+        277.0,
+        1654.0,
+        1274.0
+      ],
+      "bbox_area": 1384833.0,
+      "segmentation_order": 5,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 1920,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        265.0,
+        277.0,
+        1654.0,
+        1274.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        260.037109375,
+        271.51544189453125,
+        1662.2880859375,
+        1287.45751953125
+      ],
+      "bbox_component_file": "components/component_0005_architecture_diagram.png"
+    }
+  ],
+  "num_raw_candidates": 196,
+  "num_candidates_after_same_label_filter": 49,
+  "num_candidates_after_cross_label_dedup": 5,
+  "num_same_label_suppressed": 147,
+  "num_cross_label_dedup_suppressed": 44,
+  "num_skipped_tiny_residual_pixels": 0,
+  "num_skipped_tiny_residual_ratio": 0,
+  "num_components": 5,
+  "num_lazy_bbox_crops": 5,
+  "num_mask_segments": 0,
+  "num_part_of_suppressed": 0,
+  "part_of_decisions": [],
+  "num_removed_pixels": 1507349
+}

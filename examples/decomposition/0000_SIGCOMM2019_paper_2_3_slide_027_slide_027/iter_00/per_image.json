@@ -1,0 +1,57 @@
+[
+  {
+    "input_image": "slide_027.png",
+    "phrases": [
+      "Slide title",
+      "Title underline",
+      "University logo",
+      "Section heading",
+      "Rate vs queue chart",
+      "Rate halving equation",
+      "Buffer inequality equation",
+      "Conclusion statement"
+    ],
+    "b_classes": [
+      "slide title",
+      "decorative element",
+      "logo/icon",
+      "section title",
+      "line chart",
+      "equation",
+      "text block"
+    ],
+    "c_classes": [
+      "slide title",
+      "logo/icon",
+      "heading",
+      "line chart",
+      "axis label",
+      "axis",
+      "equation",
+      "mathematical notation",
+      "text",
+      "bullet point",
+      "bullet marker",
+      "arrow"
+    ],
+    "union_classes": [
+      "arrow",
+      "axis",
+      "axis label",
+      "bullet marker",
+      "bullet point",
+      "decorative element",
+      "equation",
+      "heading",
+      "line chart",
+      "logo/icon",
+      "mathematical notation",
+      "section title",
+      "slide title",
+      "text",
+      "text block"
+    ],
+    "retry_classes_added": [],
+    "score_thresh_used": 0.3
+  }
+]

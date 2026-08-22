@@ -1,0 +1,29 @@
+# SlideForge — Python dependencies for the two pipelines.
+# The SAM3 detector package is installed separately:  pip install -e ./sam3
+# (torch is intentionally not pinned here — install the build matching your
+#  CUDA version first, e.g. torch>=2.4 + torchvision.)
+
+# shared
+numpy>=1.26,<2
+Pillow
+opencv-python
+
+# Stage I — Deck State Graph construction (decomposition/)
+shapely
+anthropic
+openai
+google-generativeai
+
+# Stage III/IV — theme-preserving reconstruction (restyle/)
+python-pptx
+lxml
+
+# evaluation (decomposition/eval/, restyle/metrics/)
+scikit-image
+easyocr          # OCR-based metrics + deterministic sizing priors (GPU torch)
+# optional metrics (reported as null when absent):
+# lpips
+# open-clip-torch
+
+# checkpoint download
+huggingface_hub[cli]

@@ -1,0 +1,396 @@
+{
+  "query_image_path": "slide_027.png",
+  "query_image_size": {
+    "width": 2561,
+    "height": 1440
+  },
+  "classes_used": [
+    "arrow",
+    "axis",
+    "axis label",
+    "bullet marker",
+    "bullet point",
+    "decorative element",
+    "equation",
+    "heading",
+    "line chart",
+    "logo/icon",
+    "mathematical notation",
+    "section title",
+    "slide title",
+    "text",
+    "text block"
+  ],
+  "selection_strategy": {
+    "same_label_overlap": "keep_larger_box",
+    "cross_label_overlap": "segment_smaller_box_first",
+    "cross_label_near_duplicate_handling": "suppress_one_candidate",
+    "cross_label_near_duplicate_policy": "score_then_area",
+    "cross_label_near_duplicate_overlap_ratio_thresh": 0.9,
+    "segment_on_residual_image": true,
+    "min_overlap_area": 1.0,
+    "min_residual_pixels": 32,
+    "min_residual_ratio": 0.1,
+    "lazy_segment": true,
+    "lazy_segment_component_save": "bbox_crop_when_non_overlapping_else_mask_rgba",
+    "removal_mode": "bbox_fill_for_seg_mode_bbox_else_mask_repair",
+    "mask_repair_fill_holes": true,
+    "mask_repair_closing_kernel": 5,
+    "mask_repair_dilation_px": 2,
+    "tight_bbox_dilation_px": 3,
+    "part_of_check_enabled": false,
+    "part_of_overlap_ratio_thresh": 0.3,
+    "bbox_components_saved": true,
+    "bbox_components_dir": "experiments/stack-v2/runs/main20/0011_SIGCOMM2019_paper_2_3_slide_027_slide_027/iter_00/bbox_components/0000_SIGCOMM2019_paper_2_3_slide_027_slide_027/components"
+  },
+  "components": [
+    {
+      "component_file": "components/component_0001_logo_icon.png",
+      "text_type": "logo/icon",
+      "score": 0.7652276754379272,
+      "bbox_xyxy": [
+        271.0,
+        1175.0,
+        329.0,
+        1239.0
+      ],
+      "bbox_area": 3712.0,
+      "segmentation_order": 1,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        271.0,
+        1175.0,
+        329.0,
+        1239.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        270.773681640625,
+        1173.197998046875,
+        331.64056396484375,
+        1239.607177734375
+      ],
+      "bbox_component_file": "components/component_0001_logo_icon.png"
+    },
+    {
+      "component_file": "components/component_0002_logo_icon.png",
+      "text_type": "logo/icon",
+      "score": 0.6635468602180481,
+      "bbox_xyxy": [
+        132.55609130859375,
+        295.7077331542969,
+        211.0690155029297,
+        372.3675231933594
+      ],
+      "bbox_area": 6018.784284090623,
+      "segmentation_order": 2,
+      "segmentation_mode": "mask",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        133.0,
+        297.0,
+        210.0,
+        372.0
+      ],
+      "bbox_was_tightened": false,
+      "bbox_component_file": "components/component_0002_logo_icon.png"
+    },
+    {
+      "component_file": "components/component_0003_text.png",
+      "text_type": "text",
+      "score": 0.5076338052749634,
+      "bbox_xyxy": [
+        1291.6741943359375,
+        915.7526245117188,
+        1469.5042724609375,
+        1057.288818359375
+      ],
+      "bbox_area": 25169.392409443855,
+      "segmentation_order": 3,
+      "segmentation_mode": "mask",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        1295.0,
+        916.0,
+        1465.0,
+        1057.0
+      ],
+      "bbox_was_tightened": false,
+      "bbox_component_file": "components/component_0003_text.png"
+    },
+    {
+      "component_file": "components/component_0004_logo_icon.png",
+      "text_type": "logo/icon",
+      "score": 0.9030351638793945,
+      "bbox_xyxy": [
+        2235.703857421875,
+        35.61625671386719,
+        2445.2880859375,
+        249.4903106689453
+      ],
+      "bbox_area": 44824.628597684205,
+      "segmentation_order": 4,
+      "segmentation_mode": "mask",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        2237.0,
+        36.0,
+        2445.0,
+        243.0
+      ],
+      "bbox_was_tightened": false,
+      "bbox_component_file": "components/component_0004_logo_icon.png"
+    },
+    {
+      "component_file": "components/component_0005_decorative_element.png",
+      "text_type": "decorative element",
+      "score": 0.4186284840106964,
+      "bbox_xyxy": [
+        97.0,
+        240.0,
+        2420.0,
+        262.0
+      ],
+      "bbox_area": 51106.0,
+      "segmentation_order": 5,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        97.0,
+        240.0,
+        2420.0,
+        262.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        96.56404113769531,
+        240.47201538085938,
+        2429.228515625,
+        263.29437255859375
+      ],
+      "bbox_component_file": "components/component_0005_decorative_element.png"
+    },
+    {
+      "component_file": "components/component_0006_equation.png",
+      "text_type": "equation",
+      "score": 0.7106837630271912,
+      "bbox_xyxy": [
+        932.0,
+        1281.0,
+        1561.0,
+        1368.0
+      ],
+      "bbox_area": 54723.0,
+      "segmentation_order": 6,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        932.0,
+        1281.0,
+        1561.0,
+        1368.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        930.6586303710938,
+        1277.8197021484375,
+        1564.823974609375,
+        1367.85302734375
+      ],
+      "bbox_component_file": "components/component_0006_equation.png"
+    },
+    {
+      "component_file": "components/component_0007_section_title.png",
+      "text_type": "section title",
+      "score": 0.8832247257232666,
+      "bbox_xyxy": [
+        155.0,
+        93.0,
+        877.0,
+        185.0
+      ],
+      "bbox_area": 66424.0,
+      "segmentation_order": 7,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        155.0,
+        93.0,
+        877.0,
+        185.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        152.51953125,
+        92.84516906738281,
+        876.77197265625,
+        185.15087890625
+      ],
+      "bbox_component_file": "components/component_0007_section_title.png"
+    },
+    {
+      "component_file": "components/component_0008_text.png",
+      "text_type": "text",
+      "score": 0.6820316910743713,
+      "bbox_xyxy": [
+        222.0,
+        314.0,
+        907.0,
+        393.0
+      ],
+      "bbox_area": 54115.0,
+      "segmentation_order": 8,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        222.0,
+        314.0,
+        907.0,
+        393.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        125.74195861816406,
+        306.7460632324219,
+        906.5894775390625,
+        394.5331115722656
+      ],
+      "bbox_component_file": "components/component_0008_text.png"
+    },
+    {
+      "component_file": "components/component_0009_text.png",
+      "text_type": "text",
+      "score": 0.6368201971054077,
+      "bbox_xyxy": [
+        363.0,
+        1174.0,
+        2211.0,
+        1249.0
+      ],
+      "bbox_area": 138600.0,
+      "segmentation_order": 9,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        363.0,
+        1174.0,
+        2211.0,
+        1249.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        351.2328796386719,
+        1172.854248046875,
+        2218.005615234375,
+        1248.7933349609375
+      ],
+      "bbox_component_file": "components/component_0009_text.png"
+    },
+    {
+      "component_file": "components/component_0010_equation.png",
+      "text_type": "equation",
+      "score": 0.7671050429344177,
+      "bbox_xyxy": [
+        1572.0,
+        546.0,
+        2276.0,
+        930.0
+      ],
+      "bbox_area": 270336.0,
+      "segmentation_order": 10,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        1570.0,
+        546.0,
+        2277.0,
+        937.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        1562.5400390625,
+        532.4784545898438,
+        2279.13818359375,
+        952.103515625
+      ],
+      "bbox_component_file": "components/component_0010_equation.png",
+      "bbox_tightening_source": "pixel"
+    },
+    {
+      "component_file": "components/component_0011_axis.png",
+      "text_type": "axis",
+      "score": 0.7765268683433533,
+      "bbox_xyxy": [
+        189.0,
+        545.0,
+        1280.0,
+        1045.0
+      ],
+      "bbox_area": 545500.0,
+      "segmentation_order": 11,
+      "segmentation_mode": "bbox",
+      "query_image_size": {
+        "width": 2561,
+        "height": 1440
+      },
+      "tight_bbox_xyxy": [
+        189.0,
+        545.0,
+        1280.0,
+        1045.0
+      ],
+      "bbox_was_tightened": true,
+      "original_bbox_xyxy": [
+        188.7468719482422,
+        476.447265625,
+        1354.0452880859375,
+        1061.091552734375
+      ],
+      "bbox_component_file": "components/component_0011_axis.png"
+    }
+  ],
+  "num_raw_candidates": 72,
+  "num_candidates_after_same_label_filter": 41,
+  "num_candidates_after_cross_label_dedup": 11,
+  "num_same_label_suppressed": 31,
+  "num_cross_label_dedup_suppressed": 30,
+  "num_skipped_tiny_residual_pixels": 0,
+  "num_skipped_tiny_residual_ratio": 0,
+  "num_components": 11,
+  "num_lazy_bbox_crops": 8,
+  "num_mask_segments": 3,
+  "num_part_of_suppressed": 0,
+  "part_of_decisions": [],
+  "num_removed_pixels": 1243842
+}

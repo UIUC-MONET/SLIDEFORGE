@@ -1,0 +1,71 @@
+[
+ {
+  "page": "0000",
+  "orig_words": 25,
+  "render_words": 25,
+  "missing_words": [],
+  "coverage": 1.0,
+  "median_height_ratio": 0.558
+ },
+ {
+  "page": "0001",
+  "orig_words": 20,
+  "render_words": 20,
+  "missing_words": [],
+  "coverage": 1.0,
+  "median_height_ratio": 0.525
+ },
+ {
+  "page": "0002",
+  "orig_words": 16,
+  "render_words": 15,
+  "missing_words": [
+   "11"
+  ],
+  "coverage": 0.9375,
+  "median_height_ratio": 0.533
+ },
+ {
+  "page": "0003",
+  "orig_words": 30,
+  "render_words": 26,
+  "missing_words": [
+   "16",
+   "encoding",
+   "in",
+   "real",
+   "system",
+   "tiling"
+  ],
+  "coverage": 0.8,
+  "median_height_ratio": 0.718
+ },
+ {
+  "page": "0004",
+  "orig_words": 28,
+  "render_words": 26,
+  "missing_words": [
+   "21",
+   "25",
+   "50",
+   "cts",
+   "dark",
+   "fil",
+   "obje",
+   "sodb",
+   "sp"
+  ],
+  "coverage": 0.6785714285714286,
+  "median_height_ratio": 0.534
+ },
+ {
+  "page": "0005",
+  "orig_words": 36,
+  "render_words": 35,
+  "missing_words": [
+   "26"
+  ],
+  "coverage": 0.9722222222222222,
+  "median_height_ratio": 0.533
+ }
+]

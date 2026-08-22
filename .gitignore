@@ -1,0 +1,32 @@
+# secrets — never commit keys
+api_keys.txt
+restyle/api_keys.txt
+.env
+.env.*
+
+# model weights (download via scripts/download_checkpoints.sh)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+sam3/checkpoints/*
+!sam3/checkpoints/.gitkeep
+sam3/output/
+
+# run artifacts
+runs/
+output/
+restyle/output/
+*.log
+vlm_usage.jsonl
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# misc
+.DS_Store
+wandb/

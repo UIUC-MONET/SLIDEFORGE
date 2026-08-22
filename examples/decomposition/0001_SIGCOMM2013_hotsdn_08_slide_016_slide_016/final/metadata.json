@@ -1,0 +1,293 @@
+{
+  "image": "slide_016.png",
+  "num_components": 5,
+  "num_fine": 5,
+  "num_merged": 0,
+  "num_layout_review_missed": 0,
+  "num_bbox_tightened": 5,
+  "num_final_components": 5,
+  "components": [
+    {
+      "filename": "iter00_component_0001_page_number.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0001_page_number.png",
+      "text_type": "page number",
+      "score": 0.8670804500579834,
+      "bbox_xyxy": [
+        1823.0,
+        1353.0,
+        1875.0,
+        1395.0
+      ],
+      "bbox_area": 2184.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "16",
+      "valid_reason": "Simple numeric page number rendered as plain text with minimal whitespace.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        1820.826171875,
+        1352.7431640625,
+        1875.2144775390625,
+        1395.267333984375
+      ],
+      "tight_bbox_xyxy": [
+        1823.0,
+        1353.0,
+        1875.0,
+        1395.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0002_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0002_text.png",
+      "text_type": "text",
+      "score": 0.6923138499259949,
+      "bbox_xyxy": [
+        1144.0,
+        1326.0,
+        1372.0,
+        1391.0
+      ],
+      "bbox_area": 14820.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Sending",
+      "valid_reason": "Clear, readable single word 'Sending' rendered as text with no surrounding graphics.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        1144.0323486328125,
+        1325.7459716796875,
+        1371.9698486328125,
+        1391.0882568359375
+      ],
+      "tight_bbox_xyxy": [
+        1144.0,
+        1326.0,
+        1372.0,
+        1391.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0003_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0003_text.png",
+      "text_type": "text",
+      "score": 0.7641083002090454,
+      "bbox_xyxy": [
+        484.0,
+        1326.0,
+        753.0,
+        1394.0
+      ],
+      "bbox_area": 18292.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Receiving",
+      "valid_reason": "Single word 'Receiving' rendered in sans-serif font, clearly legible with tight bounding box and no clipping.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        484.07147216796875,
+        1324.8021240234375,
+        753.090576171875,
+        1393.7452392578125
+      ],
+      "tight_bbox_xyxy": [
+        484.0,
+        1326.0,
+        753.0,
+        1394.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0004_title_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0004_title_text.png",
+      "text_type": "title text",
+      "score": 0.9385160207748413,
+      "bbox_xyxy": [
+        512.0,
+        86.0,
+        1402.0,
+        184.0
+      ],
+      "bbox_area": 87220.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "FPGA adapter design",
+      "valid_reason": "Clear, readable title text with no graphical elements; content fills the crop appropriately.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        512.1159057617188,
+        86.2314453125,
+        1402.0823974609375,
+        183.54013061523438
+      ],
+      "tight_bbox_xyxy": [
+        512.0,
+        86.0,
+        1402.0,
+        184.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    },
+    {
+      "filename": "iter00_component_0005_architecture_diagram.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "iter_idx": 0,
+      "iter_original_filename": "component_0005_architecture_diagram.png",
+      "text_type": "architecture diagram",
+      "score": 0.8282989859580994,
+      "bbox_xyxy": [
+        265.0,
+        277.0,
+        1654.0,
+        1274.0
+      ],
+      "bbox_area": 1384833.0,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "valid_reason": "This is a complex system architecture diagram showing data flow between userland, device driver, FPGA, and PHY layers with ring buffers, DMA, and PCIe components.",
+      "bbox_was_tightened": true,
+      "bbox_tightening_source": null,
+      "original_bbox_xyxy": [
+        260.037109375,
+        271.51544189453125,
+        1662.2880859375,
+        1287.45751953125
+      ],
+      "tight_bbox_xyxy": [
+        265.0,
+        277.0,
+        1654.0,
+        1274.0
+      ],
+      "polygon_xyxy": null,
+      "bbox_overlap_carved_by": null,
+      "merged_into": null
+    }
+  ],
+  "final_components": [
+    {
+      "filename": "iter00_component_0001_page_number.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "page number",
+      "bbox_xyxy": [
+        1823.0,
+        1353.0,
+        1875.0,
+        1395.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "16",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 4
+    },
+    {
+      "filename": "iter00_component_0002_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "text",
+      "bbox_xyxy": [
+        1144.0,
+        1326.0,
+        1372.0,
+        1391.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Sending",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 3
+    },
+    {
+      "filename": "iter00_component_0003_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "text",
+      "bbox_xyxy": [
+        484.0,
+        1326.0,
+        753.0,
+        1394.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "Receiving",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 2
+    },
+    {
+      "filename": "iter00_component_0004_title_text.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "title text",
+      "bbox_xyxy": [
+        512.0,
+        86.0,
+        1402.0,
+        184.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": true,
+      "ocr_latex": "FPGA adapter design",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 1
+    },
+    {
+      "filename": "iter00_component_0005_architecture_diagram.png",
+      "granularity": "fine",
+      "source": "sam3",
+      "text_type": "architecture diagram",
+      "bbox_xyxy": [
+        265.0,
+        277.0,
+        1654.0,
+        1274.0
+      ],
+      "polygon_xyxy": null,
+      "segmentation_mode": "bbox",
+      "is_text_only": false,
+      "ocr_latex": "",
+      "merged_from": null,
+      "post_merge_ocr": false,
+      "z_index": 0
+    }
+  ]
+}

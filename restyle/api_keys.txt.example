@@ -1,0 +1,12 @@
+# Copy this file to api_keys.txt and fill in your keys, or simply export
+# the same variables in your shell (both are honored; api_keys.txt is
+# gitignored). Never commit real keys.
+#
+# Needed for step1 (gpt-image-2 styled backgrounds) and step3 class-5
+# raster repaint. Not needed with SKIP_OPENAI=1.
+OPENAI_API_KEY=sk-...
+#
+# Needed for the Anthropic API backend. Not needed with CLAUDE_BACKEND=cli
+# (which routes calls through the `claude` CLI on a Claude Code
+# subscription instead).
+ANTHROPIC_API_KEY=sk-ant-...

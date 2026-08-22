@@ -1,0 +1,3 @@
+Style target: dark industrial machinery visual language.
+
+All generated backgrounds for this deck must share the SAME industrial machinery visual language — consistent color palette (dark base with warm metallic accents), materials and textures (brushed metal, grills, rivets), lighting, line weight, level of detail, and decorative motifs (gears, mechanical linework, factory silhouettes, blueprint elements). The opening and closing pages can carry more decoration than the content pages without impacting foreground bbox regions.
