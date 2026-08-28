@@ -104,7 +104,7 @@ The fine-tuned slide-component decoder is hosted at
 (SAM License); the base checkpoint comes from Meta's official
 [`facebook/sam3`](https://huggingface.co/facebook/sam3).
 
-### 4. Model backends
+### 4. Model backends 
 
 Every VLM/LLM call goes through a pluggable backend:
 
