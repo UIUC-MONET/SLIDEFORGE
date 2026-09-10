@@ -2,7 +2,9 @@
 
 <p align="left">
   <!-- TODO: link the arXiv badge once the paper is on arXiv -->
-  <img src="https://img.shields.io/badge/arXiv-coming_soon-b31b1b?logo=arxiv&logoColor=white" alt="arXiv (coming soon)">
+  <a href="https://arxiv.org/abs/2609.03109">
+  <img src="https://img.shields.io/badge/arXiv-2609.03109-b31b1b?logo=arxiv&logoColor=white" alt="arXiv: 2609.03109">
+  </a>
   <a href="paper/SlideForge.pdf"><img src="https://img.shields.io/badge/Paper-PDF-4b8bbe?logo=adobeacrobatreader&logoColor=white" alt="Paper PDF"></a>
   <a href="https://huggingface.co/zoezheng126/slideforge-sam3-decoder"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-ffd21e" alt="Hugging Face model"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT"></a>
